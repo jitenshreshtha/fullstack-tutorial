@@ -27,6 +27,9 @@ app.get('/post', (req, res) => {
     res.render('post');
 })
 
+
+
+// listening to the port 
 app.listen(PORT, () => {
     console.log(`Server created successfully at ${PORT}`);
 })
