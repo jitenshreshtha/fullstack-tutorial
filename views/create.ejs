@@ -1,0 +1,15 @@
+<%- include('layouts/header')-%>
+<%- include('layouts/navbar')-%>
+<h3>New Post </h3>
+<form action="/posts/store" method="POST">
+    <label>Title</label>
+    <input type="text" placeholder="Title" name="title"><br/>
+
+    <label for="description">Description</label>
+    <textarea name="body" id="body" rows="5"></textarea>
+    
+    <button type="Submit">Send</button>
+</form>
+
+<%- include('layouts/footer')-%>
+<%- include('layouts/scripts')-%>
