@@ -6,7 +6,7 @@ const mongoose = require('mongoose');
 const BlogPost = require('./models/BlogPost');
 
 const app = express();
-
+ 
 // global middlewares
 app.use(express.static('public'));
 app.set('view engine', 'ejs');
